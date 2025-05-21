@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: Make GET request to the Flask API to refresh the RSS feed
         run: |
-          curl -s https://tbl-scrapper.vercel.app/rss > latest_feed.xml
+          curl -s https://op-tbl-scarpper.vercel.app/rss > latest_feed.xml
       - name: Upload RSS feed (optional)
         uses: actions/upload-artifact@v3
         with:
